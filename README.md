@@ -40,8 +40,6 @@ CSV files use UTF-8 encoding and include a header row. Use a CSV parser: cells m
 
 Translations are alternative representations of the same example, not additional rows or separate tasks. They share the same `item_id`, `topic`, and label. By default, inputs use the original `context` and `conversation`; you can select a translation when preparing inputs. Record the selected language with your results to make experiments comparable.
 
-All examples are synthetic; this release contains no historical production conversations. Labels follow predefined rules and have passed automated checks. This release does not claim independent human expert validation.
-
 ## Quick start
 
 The scripts in `src/` require Python 3.10 or later. No external libraries or API keys are needed to run these scripts. Run the commands below from the repository root.
