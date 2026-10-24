@@ -1,0 +1,6 @@
+*
+!Dockerfile
+!pyproject.toml
+!uv.lock
+!judge/
+**/__pycache__

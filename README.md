@@ -1,3 +1,7 @@
+<!-- solution-pointer -->
+> **Submitted solution:** build and run instructions for `adapt` and `eval` are in [SOLUTION.md](SOLUTION.md).
+> Requires Docker and an Anthropic API key (`-e ANTHROPIC_API_KEY`); no other configuration.
+
 # A Judge That Learns from an Expert
 
 Infer an expert's evaluation rules from labeled conversations, then assign one of two labels to new conversations: `good` or `bad`. Evaluate the entire conversation. Any violation of an applicable rule makes the conversation `bad`.
